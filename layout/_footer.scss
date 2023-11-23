@@ -23,5 +23,10 @@ footer{
     li:hover{
       cursor: pointer;
     }
+    a:hover{
+      i:hover{
+        color: $Purple;
+      }
+    }
   }
 }
