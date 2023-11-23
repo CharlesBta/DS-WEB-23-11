@@ -1,8 +1,16 @@
-*{
-  background-color: black;
-}
-body{
-  background-color: black;
-  width: 100%;
-  height: 100%;
-}
+@import "./abstract/variables";
+@import "./abstract/mixins";
+
+@import "./base/base";
+@import "./base/animations";
+@import "./base/typography";
+
+@import "./components/menu";
+@import "./components/title";
+@import "./components/bandeau-fan-club";
+
+@import "./layout/header";
+@import "./layout/main-page";
+
+
+

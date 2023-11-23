@@ -1,0 +1,52 @@
+.bandeau-fan-club{
+  background: linear-gradient(180deg, #433C87 0%, rgba(67, 60, 135, 0.00) 100%);
+  width: 563px;
+  height: 752px;
+  flex-shrink: 0;
+  .texte{
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+      font-family: Bigelow Rules;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    p{
+      font-family: Sofia Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    button{
+      width: 100%;
+      height: 44px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      border: none;
+      font-family: Sofia Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #433C87;
+      cursor: pointer;
+    }
+  }
+
+}

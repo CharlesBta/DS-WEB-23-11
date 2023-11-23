@@ -1,0 +1,35 @@
+nav {
+  background-color: $Dark;
+  display: flex;
+  align-items: center;
+  //margin-top: 1.5em;
+  //margin-inline: 7em;
+  ul {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    li {
+      padding: 1em;
+      a {
+        color : $White;
+        text-decoration: none;
+        width: 563px;
+        height: 44px;
+        font-family: Bigelow Rules;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    li:hover{
+      cursor: pointer;
+      a{
+        text-decoration: underline;
+      }
+    }
+  }
+}
