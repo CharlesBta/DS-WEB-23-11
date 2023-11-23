@@ -1,5 +1,11 @@
 #main-page{
+  padding-inline: 4%;
   background-image: url("../Ressources/background1.png");
   background-size: cover;
   height: 1573px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
 }

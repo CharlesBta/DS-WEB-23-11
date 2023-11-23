@@ -1,0 +1,18 @@
+.losange{
+    position: relative;
+  #chapeau{
+    position: absolute;
+
+    left: 255px;
+    top: 255px;
+  }
+  p{
+    position: absolute;
+    left: 290px;
+    top: 490px;
+
+    color: $White;
+
+    text-align: center;
+  }
+}
